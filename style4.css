@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: rgba(128, 128, 128, 0.884);
+    height: 260vh;
+    background-size: 100% 100%;
+}
+
+.container .navbar{
+    width: 100%;
+    height: 80px;
+    background: rgb(22, 112, 214, 0.4);
+}
+
+.navbar .logo{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.navbar .logo a{
+    text-decoration: none;
+    font-size: 40px;
+    font-family: sans-serif;
+    color: rgb(49, 47, 79);
+}
+
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+
+.navbar ul li a{
+    color: rgb(49, 47, 79);
+    text-decoration: none;
+    font-size: 25px;
+    padding: 6px 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: opacity 0.15;
+}
+
+.navbar ul li a:hover{
+    opacity: 0.6;
+}
+
+.navbar ul li a:active{
+    opacity: 0.2;
+}
+
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+  background-color: rgba(255, 255, 255, 0.836);
+  border-radius: 6px;
+}
+
+.container .başlık{
+   text-align: center;
+   color: #964b00;
+   font-size: 200%;
+   background-color: rgba(240, 248, 255, 0.555);
+}
+
+.container .paragraf1{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    padding-left: 25px;
+    text-align: center;
+    
+}
+
+.resim,.resim2{
+    text-align: center;
+}
+
+.container .başlık2{
+    text-align: center;
+    color: #964b00;
+    font-size: 150%;
+    background-color: rgba(240, 248, 255, 0.555);
+
+}
+
+.container .resim2{
+    text-align: center;    
+}
+
+.container .paragraf3{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    padding-left: 25px;
+    text-align: center; 
+}
+
+.footer {
+    background-color: rgb(197, 197, 201)1;
+    padding: 10px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+
+

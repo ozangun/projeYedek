@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color:   rgb(214, 214, 219);
+    height: 16  00vh;
+    background-size: 100% 100%;
+}
+
+.container .navbar{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(197, 197, 201);
+}
+
+.navbar .logo{
+    display: inline-block;
+   margin: 15px 15px;
+   
+}
+
+.freya {
+    z-index: 1;
+    width: 50px;
+    height: 50px;
+    
+}
+.navbar .logo a{
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(3, 3, 3);
+   
+}
+
+.navbar ul{
+    float: right;
+    margin-right: 10px;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+
+.navbar ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background-color: rgba(245, 245, 238, 0.933);
+    border-radius: 8px;
+}
+
+.container .center{
+    text-align: left;
+    top: 50%;
+    left: 50%;
+    font-family: sans-serif;
+    user-select: none;
+}
+
+
+
+.center h1{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    width: 100%;
+    text-align: left;
+    margin-top: 25px;
+    padding-left: 20px;
+}
+.metin{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    width: 95%;
+    text-align: left;
+    margin-top: 90px;
+    padding-left: 20px;
+}
+.altmetin{
+    font-size: 20px;
+    padding-left: 0px;
+    margin-top: 35px;
+    font-weight: lighter;
+}
+
+.video{
+    margin-left: 375px;
+    margin-top: 50px;
+}
+
+.center p{
+    font-size: 20px;
+    padding-left: 20px;
+    margin-top: 55px;
+    
+}
+.image{
+    padding-left: 20px;
+    margin-top: 55px;
+    margin-right: 20px;
+}
+
+.image2{
+    padding-left: 20px;
+    margin-top: 45px;
+    margin-right: 20px;
+}
+
+.ilkyazi h2{
+    
+    padding-left: 20px;
+    margin-top: 35px;
+}
+.ilkyazi h4 {
+    
+    padding-left: 20px;
+    margin-top: 35px;
+}
+
+.ilkyazi p{
+    font-size: 20px;
+    padding-left: 20px;
+    margin-top: 35px;
+}
+.fragman{
+    margin-left: 345px;
+    margin-top: 50px;
+}
+
+.ikincimetin h2{
+    padding-left: 20px;
+    margin-top: 35px;
+}
+
+.ikincimetin h4{
+    padding-left: 20px;
+    margin-top: 35px;
+}
+
+.ikincimetin p{
+    font-size: 20px;
+    padding-left: 20px;
+    margin-top: 35px;
+}
+.ikincifragman{
+    margin-left: 345px;
+    margin-top: 50px;
+}
+
+
+.footer {
+    background-color: rgb(197, 197, 201)1;
+    padding: 10px;
+    text-align: center;
+    margin-top: 80px;
+}
